@@ -1,0 +1,134 @@
+@media screen and (max-width: 992px) {
+  /* HEADER */
+  .section1 a {
+    font-size: 18px;
+  }
+  /* SEARCH BOX */
+  .boxbutton {
+    margin-left: 50px;
+  }
+  .search {
+    width: 100%;
+  }
+  .border_search {
+    width: 85%;
+  }
+  .buttonsearch {
+    width: 30%;
+    font-size: 18px;
+  }
+  .icon_size {
+    width: 20%;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .filters_select {
+    padding: 5px;
+  }
+  /* MAIN */
+  .hebergements {
+    flex-direction: column-reverse;
+  }
+  .hebergements h2 {
+    font-size: 25px;
+  }
+  .hebergements i {
+    font-size: 25px;
+  }
+  /* CARDS POP */
+  .pop_box {
+    width: 100%;
+  }
+  .pop_card {
+    height: 700px;
+  }
+  .card_pop {
+    height: 200px;
+    margin-top: 20px;
+  }
+  .card_rate i {
+    font-size: 18px;
+  }
+  .card_body_pop {
+    font-size: 18px;
+  }
+  .card_price_pop {
+    margin-bottom: 0%;
+  }
+  .card_rate_pop i {
+    font-size: 18px;
+  }
+
+  /* CARDS */
+  .simple_box {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .card {
+    width: 350px;
+    height: 350px;
+  }
+
+  .card img {
+    object-fit: cover;
+    object-position: center;
+  }
+  .card_body {
+    font-size: 18px;
+  }
+  .card_rate {
+    margin-top: 30px;
+  }
+  .blue_star {
+    font-size: 18px;
+  }
+  .grey_star {
+    font-size: 18px;
+  }
+
+  /* ACTIVITES */
+  .activites {
+    height: 2600px;
+  }
+  .activité_box {
+    flex-direction: column;
+  }
+  .activité_cards_box {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+
+  .activité_card_tall img,
+  .activité_card_med img,
+  .activité_card_small img {
+    height: 75%;
+  }
+  /* Taille des textes */
+  .activité_card_med,
+  .activité_card_small,
+  .activité_card_tall {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  .activité_card_med h2,
+  .activité_card_small h2,
+  .activité_card_tall h2 {
+    padding: 2%;
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .activité_lien {
+    padding: 0px;
+  }
+  .footer_list {
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-right: 70px;
+  }
+}
